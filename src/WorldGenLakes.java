@@ -64,7 +64,6 @@ public class WorldGenLakes
                         										|| i3 > 0 && aflag[(i2 * 16 + (i3 - 1)) * 8 + i4] 
                         												|| i4 < 7 && aflag[(i2 * 16 + i3) * 8 + (i4 + 1)] 
                         														|| i4 > 0 && aflag[(i2 * 16 + i3) * 8 + (i4 - 1)]);
-                        //Если оезро глубиной в два блока, то узор берем с 5-го уровня
                         if(flag1 && (random.nextInt(2) != 0))
                         {
 	                        if(i4 == 4)
